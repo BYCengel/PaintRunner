@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6291406423878070853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6291406423878070859}
+  - component: {fileID: 6291406423878070858}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6291406423878070859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6291406423878070853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6291406423878070858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6291406423878070853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3861fe7586bc94d4395b9529f00ea9f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: jump1
+    clip: {fileID: 8300000, guid: 28da2a7e8b1b9a045817cce29e34a50c, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: jump2
+    clip: {fileID: 8300000, guid: f384aca389670a048a31cddfee3bac76, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: jump3
+    clip: {fileID: 8300000, guid: c59afca49397beb43ab920243e9bce37, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: jump4
+    clip: {fileID: 8300000, guid: 32f86903f42ac5d46aee28876a4194ca, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: drop1
+    clip: {fileID: 8300000, guid: f05ac7bb51c31db4bad059886c296f31, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: drop2
+    clip: {fileID: 8300000, guid: c2d2be9179f4d1647ac8896a137d6104, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: drop3
+    clip: {fileID: 8300000, guid: 2161142dd8cdeb546820c7d747acce76, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: drop4
+    clip: {fileID: 8300000, guid: 2e35dc86c3e6450468236889512d3600, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: music1
+    clip: {fileID: 8300000, guid: 56968a6c9881daa4c81439154cadd178, type: 3}
+    volume: 0.09
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: damage1
+    clip: {fileID: 8300000, guid: 3ac8111328eb3d449a3c9f6a2ec54843, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: damage2
+    clip: {fileID: 8300000, guid: 4704e9debd2b03042bbcbce0e97edf90, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: damage3
+    clip: {fileID: 8300000, guid: 46c9971754d880b4293588970011c36a, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: damage4
+    clip: {fileID: 8300000, guid: d79739a77d5560c489076fa0a6f8a90a, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: death1
+    clip: {fileID: 8300000, guid: 8f0b28a1f036ed2458b274eab8329002, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: death2
+    clip: {fileID: 8300000, guid: 88536b4c96fb3214e9d055d1bc78edca, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: death3
+    clip: {fileID: 8300000, guid: 01c28656597b35e4fabd0c54cba530cd, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: death4
+    clip: {fileID: 8300000, guid: 9ce1b7a2cd720404caced7c9cd8e4186, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: slowrun
+    clip: {fileID: 8300000, guid: d9f130979323b0e429ab2d8b57d5841a, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: fastrun
+    clip: {fileID: 8300000, guid: 6a96992029658b64c98fb6bf7c5b85b4, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: jump5
+    clip: {fileID: 8300000, guid: 21c662efd94a074408a5bd57479c5140, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
